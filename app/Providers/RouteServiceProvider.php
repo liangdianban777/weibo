@@ -19,6 +19,9 @@ class RouteServiceProvider extends ServiceProvider
      */
     public const HOME = '/home';
 
+    //定义一个 $namespace 属性
+    protected $namespace = 'App\\Http\\Controllers';
+
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
      *
@@ -34,6 +37,7 @@ class RouteServiceProvider extends ServiceProvider
                 ->group(base_path('routes/api.php'));
 
             Route::middleware('web')
+                ->namespace($this->namespace)   //启用命名空间支持
                 ->group(base_path('routes/web.php'));
         });
     }
