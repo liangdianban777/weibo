@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Weibo App</title>
-</head>
-<body>
-  <h1>关于页</h1>
+@extends('layouts.default')
 
-</body>
-</html>
+@section('title')
+
+@section('content')
+  <h1>ZZZ关于页 这是来自about.blade.php 的标签</h1>
+@endsection
