@@ -1,0 +1,13 @@
+liangdianban007@lingchenliangdianbandeMacBooks-MacBook-Air weibo % npm run watch-poll
+
+> watch-poll
+> mix watch -- --watch-options-poll=1000
+
+sh: mix: command not found
+liangdianban007@lingchenliangdianbandeMacBooks-MacBook-Air weibo % liangdianban007@lingchenliangdianbandeMacBooks-MacBook-Air weibo % npm run watch-poll
+
+> watch-poll
+> mix watch -- --watch-options-poll=1000
+
+sh: mix: command not found
+liangdianban007@lingchenliangdianbandeMacBooks-MacBook-Air weibo % npm install
