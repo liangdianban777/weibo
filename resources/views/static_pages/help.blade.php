@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', '帮助')
 @section('content')
 <div class="bg-light p-3 p-sm-5 rounded">
   <h1>Hello Laravel</h1>
